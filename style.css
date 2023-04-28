@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 5.5em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgba(212, 75, 6, 0.171);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 3rem;
+    color: black;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color:aliceblue;
+}
+
+.heroe{
+    width: 100%;
+    height: 150vh;
+    object-fit: cover;
+}
+
+.sectionUno{
+    background-color: rgba(202, 146, 41, 0.812);
+    padding: 20px;
+}
+
+.sectionDos{
+    background-color: rgba(137, 43, 226, 0.811);
+    padding: 20px;
+}
+
+.sectionTres{
+    background-color: rgba(217, 115, 74, 0.81);
+    padding: 20px;
+}
+
+section.sectionTres p{
+    line-height: 4rem;
+    margin-top: 30px;
+}
+
+.sectionCuatro{
+    background-color: rgba(202, 146, 41, 0.812);
+    padding: 20px;
+}
+
+.sectionCuatro img {
+    height: 80%;
+}
+
+.contenedor{
+    position: relative;
+}
+div.contenedor img{
+    opacity: 90%;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+footer img{
+    width: 60%;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    h1{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    div.contenedor h2{
+    font-size: 1rem;
+    }
+
+    h3{
+        font-size: 0.4rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        text-align: center;
+    }
+
+    .sectionCuatro{
+        padding: 10px;
+    }
+
+    section.sectionTres p{
+        line-height: 2rem;
+    }
+
+    footer p{
+        font-size: 0.6rem;
+    }
+
+    footer img{
+        width: 50%;
+    }
+}
